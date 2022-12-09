@@ -1,0 +1,15 @@
+.home-container {
+    height: calc(100vh - 2rem);
+    /* background-color: var(--main-bg-color);
+    background: url('https://images.unsplash.com/photo-1615937722923-67f6deaf2cc9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    opacity: 0.9;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}

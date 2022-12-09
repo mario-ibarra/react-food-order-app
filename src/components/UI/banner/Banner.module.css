@@ -1,0 +1,29 @@
+.banner-container {
+    width: 800px;
+    padding: 1.2rem;
+    background-color: rgb(8, 8, 8);
+    position: absolute;
+    top:1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    z-index: 999;
+    flex-direction: column;
+}
+
+.banner-container h2 {
+    font-size: 1.5rem;
+    margin: .7rem 0;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+.banner-container p {
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+    color: #fff;
+    letter-spacing: 0.1em;
+    padding-bottom: 0.7rem;
+}

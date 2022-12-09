@@ -1,0 +1,15 @@
+
+.mealList-container {
+    width: 80rem;
+    max-height: 70vh;
+    padding: 1.5rem;
+    position: absolute;
+    left: 50%;
+    top: 15rem;
+    transform: translateX(-50%);
+    z-index: 999;
+    display: flex;
+    border-radius: 0.5rem;
+    flex-direction: column;
+    overflow: scroll;  
+}

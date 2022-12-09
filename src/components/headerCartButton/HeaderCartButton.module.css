@@ -1,0 +1,26 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.3rem 1rem;
+  border-radius: 0.2rem;
+  border: none;
+  outline: none;
+  background-color: lightblue;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cart-quantity {
+  text-align: center;
+  margin-left: 0.5rem;
+  background-color: red;
+  padding: 0.2rem 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.shop-bask {
+  transform: scale(1.2);
+  margin-right: 0.5rem;
+}

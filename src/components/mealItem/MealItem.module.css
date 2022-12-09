@@ -1,0 +1,64 @@
+.mealContainer{
+    width: 70rem;
+    margin: 0.5rem auto;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.left {
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+}
+.left h2 {margin-bottom: 5px;}
+
+
+.img-container {
+    display: flex;
+    align-items: center;
+   
+}
+.img-container h3 {
+    margin-left: 0.8rem;
+    font-size: 1.25rem;
+    border-radius: 50%;
+    background-color: red;
+    padding: 5px;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+    border-radius: 0.5rem;
+    margin-right: 0.8rem;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    font-size: 1.25rem;
+}
+.info-container__price {
+    font-size: inherit;  
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    color:rgb(247, 84, 84)
+}
+.meal-description {
+    max-width: 60rem;
+    padding: 0 1rem;
+}
+.right {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.btn{
+    font-size: 1.25rem;
+    border-radius: .4rem;
+}

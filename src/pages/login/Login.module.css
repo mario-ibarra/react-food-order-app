@@ -1,0 +1,36 @@
+.form-control {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 4rem auto;
+  padding: 2rem;
+  width: 40rem;
+
+}
+.form-controls {
+    margin-bottom: 0.4rem;
+   
+}
+
+.form-controls label {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.form-controls input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: .4rem;
+  outline: none;
+}
+
+.btn-sign-in{
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 0.4rem;
+    font-size: 1.25rem;
+}
+
+.btn-sign-in:hover{
+    background-color: rgb(54, 61, 42);
+}
